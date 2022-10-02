@@ -1,0 +1,519 @@
+station_id,location_name,day,dtime,num_bikes_available,num_docks_available,capacity,bike_exist,dock_exist
+67,MIT at Mass Ave / Amherst St,5,63244,8,12,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,62287,0,23,23,0,1
+80,MIT Stata Center at Vassar St / Main St,5,63243,23,10,35,1,1
+107,Ames St at Main St,5,63249,8,8,19,1,1
+178,MIT Pacific St at Purrington St,5,62885,11,5,19,1,1
+179,MIT Vassar St,5,63302,1,20,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,63062,4,13,19,1,1
+189,Kendall T,5,63243,3,15,23,1,1
+318,Ames St at Broadway,5,61628,3,14,19,1,1
+380,Mass Ave at Albany St,5,63188,5,13,18,1,1
+471,MIT Carleton St at Amherst St,5,63180,6,20,27,1,1
+472,MIT Hayward St at Amherst St,5,63308,8,19,27,1,1
+479,Galileo Galilei Way at Main Street,5,63189,11,7,19,1,1
+566,Main Street/Albany Street/Technology Square,5,63000,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,5,63905,3,15,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,62287,0,23,23,0,1
+80,MIT Stata Center at Vassar St / Main St,5,63787,23,10,35,1,1
+107,Ames St at Main St,5,63249,8,8,19,1,1
+178,MIT Pacific St at Purrington St,5,63789,14,2,19,1,1
+179,MIT Vassar St,5,63302,1,20,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,63062,4,13,19,1,1
+189,Kendall T,5,63243,3,15,23,1,1
+318,Ames St at Broadway,5,63421,5,12,19,1,1
+380,Mass Ave at Albany St,5,63664,7,11,18,1,1
+471,MIT Carleton St at Amherst St,5,63180,6,20,27,1,1
+472,MIT Hayward St at Amherst St,5,63487,8,19,27,1,1
+479,Galileo Galilei Way at Main Street,5,63545,10,8,19,1,1
+566,Main Street/Albany Street/Technology Square,5,63000,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,5,64203,1,19,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,64026,1,22,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,64441,22,11,35,1,1
+107,Ames St at Main St,5,64445,7,10,19,1,1
+178,MIT Pacific St at Purrington St,5,64443,14,2,19,1,1
+179,MIT Vassar St,5,64388,1,21,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,64383,5,12,19,1,1
+189,Kendall T,5,64327,4,16,23,1,1
+318,Ames St at Broadway,5,64322,3,14,19,1,1
+380,Mass Ave at Albany St,5,64087,8,10,18,1,1
+471,MIT Carleton St at Amherst St,5,64504,5,21,27,1,1
+472,MIT Hayward St at Amherst St,5,63487,8,19,27,1,1
+479,Galileo Galilei Way at Main Street,5,64089,9,9,19,1,1
+566,Main Street/Albany Street/Technology Square,5,64081,14,9,23,1,1
+67,MIT at Mass Ave / Amherst St,5,64989,2,17,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,64026,1,22,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,65041,22,11,35,1,1
+107,Ames St at Main St,5,64809,4,13,19,1,1
+178,MIT Pacific St at Purrington St,5,64925,15,1,19,1,1
+179,MIT Vassar St,5,65042,4,21,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,65101,4,13,19,1,1
+189,Kendall T,5,64921,2,18,23,1,1
+318,Ames St at Broadway,5,64989,3,14,19,1,1
+380,Mass Ave at Albany St,5,65044,7,11,18,1,1
+471,MIT Carleton St at Amherst St,5,64867,1,25,27,1,1
+472,MIT Hayward St at Amherst St,5,63487,8,19,27,1,1
+479,Galileo Galilei Way at Main Street,5,64561,10,8,19,1,1
+566,Main Street/Albany Street/Technology Square,5,64081,14,9,23,1,1
+67,MIT at Mass Ave / Amherst St,5,65707,4,15,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,65109,0,23,23,0,1
+80,MIT Stata Center at Vassar St / Main St,5,65286,23,10,35,1,1
+107,Ames St at Main St,5,65464,3,14,19,1,1
+178,MIT Pacific St at Purrington St,5,65701,14,2,19,1,1
+179,MIT Vassar St,5,65644,3,22,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,65645,5,12,19,1,1
+189,Kendall T,5,64921,2,18,23,1,1
+318,Ames St at Broadway,5,64989,3,14,19,1,1
+380,Mass Ave at Albany St,5,65589,7,11,18,1,1
+471,MIT Carleton St at Amherst St,5,64867,1,25,27,1,1
+472,MIT Hayward St at Amherst St,5,65580,7,20,27,1,1
+479,Galileo Galilei Way at Main Street,5,64561,10,8,19,1,1
+566,Main Street/Albany Street/Technology Square,5,65462,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,5,66304,2,17,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,65821,1,22,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,65829,21,12,35,1,1
+107,Ames St at Main St,5,65706,3,15,19,1,1
+178,MIT Pacific St at Purrington St,5,66304,15,1,19,1,1
+179,MIT Vassar St,5,66184,2,23,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,66307,6,11,19,1,1
+189,Kendall T,5,65765,4,16,23,1,1
+318,Ames St at Broadway,5,66063,2,15,19,1,1
+380,Mass Ave at Albany St,5,66247,10,8,18,1,1
+471,MIT Carleton St at Amherst St,5,66007,3,23,27,1,1
+472,MIT Hayward St at Amherst St,5,66067,4,23,27,1,1
+479,Galileo Galilei Way at Main Street,5,65942,12,6,19,1,1
+566,Main Street/Albany Street/Technology Square,5,65462,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,5,66662,0,20,27,0,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,65821,1,22,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,66545,20,14,35,1,1
+107,Ames St at Main St,5,66603,4,14,19,1,1
+178,MIT Pacific St at Purrington St,5,66782,15,1,19,1,1
+179,MIT Vassar St,5,66787,3,22,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,66669,6,11,19,1,1
+189,Kendall T,5,66601,5,15,23,1,1
+318,Ames St at Broadway,5,66063,2,15,19,1,1
+380,Mass Ave at Albany St,5,66361,11,7,18,1,1
+471,MIT Carleton St at Amherst St,5,66780,4,22,27,1,1
+472,MIT Hayward St at Amherst St,5,66425,3,24,27,1,1
+479,Galileo Galilei Way at Main Street,5,65942,12,6,19,1,1
+566,Main Street/Albany Street/Technology Square,5,65462,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,5,67265,0,20,27,0,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,67384,0,23,23,0,1
+80,MIT Stata Center at Vassar St / Main St,5,67443,18,16,35,1,1
+107,Ames St at Main St,5,67507,3,15,19,1,1
+178,MIT Pacific St at Purrington St,5,67382,15,0,19,1,0
+179,MIT Vassar St,5,67264,5,20,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,66669,6,11,19,1,1
+189,Kendall T,5,67328,1,19,23,1,1
+318,Ames St at Broadway,5,67028,1,16,19,1,1
+380,Mass Ave at Albany St,5,67446,9,9,18,1,1
+471,MIT Carleton St at Amherst St,5,67384,1,25,27,1,1
+472,MIT Hayward St at Amherst St,5,67383,1,26,27,1,1
+479,Galileo Galilei Way at Main Street,5,67263,12,6,19,1,1
+566,Main Street/Albany Street/Technology Square,5,65462,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,5,68102,0,20,27,0,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,67384,0,23,23,0,1
+80,MIT Stata Center at Vassar St / Main St,5,67984,18,16,35,1,1
+107,Ames St at Main St,5,68049,1,17,19,1,1
+178,MIT Pacific St at Purrington St,5,67801,15,1,19,1,1
+179,MIT Vassar St,5,67988,1,23,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,67926,7,10,19,1,1
+189,Kendall T,5,67867,2,18,23,1,1
+318,Ames St at Broadway,5,67028,1,16,19,1,1
+380,Mass Ave at Albany St,5,67865,9,9,18,1,1
+471,MIT Carleton St at Amherst St,5,67802,0,26,27,0,1
+472,MIT Hayward St at Amherst St,5,67802,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,67263,12,6,19,1,1
+566,Main Street/Albany Street/Technology Square,5,65462,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,5,68704,1,19,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,67384,0,23,23,0,1
+80,MIT Stata Center at Vassar St / Main St,5,68520,17,17,35,1,1
+107,Ames St at Main St,5,68466,2,16,19,1,1
+178,MIT Pacific St at Purrington St,5,68524,13,3,19,1,1
+179,MIT Vassar St,5,68524,2,22,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,67926,7,10,19,1,1
+189,Kendall T,5,68647,1,20,23,1,1
+318,Ames St at Broadway,5,67028,1,16,19,1,1
+380,Mass Ave at Albany St,5,68526,9,9,18,1,1
+471,MIT Carleton St at Amherst St,5,68648,2,24,27,1,1
+472,MIT Hayward St at Amherst St,5,67802,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,68460,9,9,19,1,1
+566,Main Street/Albany Street/Technology Square,5,68105,16,7,23,1,1
+67,MIT at Mass Ave / Amherst St,5,69306,1,18,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,67384,0,23,23,0,1
+80,MIT Stata Center at Vassar St / Main St,5,68520,17,17,35,1,1
+107,Ames St at Main St,5,68466,2,16,19,1,1
+178,MIT Pacific St at Purrington St,5,69185,14,1,19,1,1
+179,MIT Vassar St,5,69185,1,23,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,67926,7,10,19,1,1
+189,Kendall T,5,68947,0,21,23,0,1
+318,Ames St at Broadway,5,67028,1,16,19,1,1
+380,Mass Ave at Albany St,5,69127,6,12,18,1,1
+471,MIT Carleton St at Amherst St,5,69003,2,24,27,1,1
+472,MIT Hayward St at Amherst St,5,69127,2,25,27,1,1
+479,Galileo Galilei Way at Main Street,5,68460,9,9,19,1,1
+566,Main Street/Albany Street/Technology Square,5,69004,17,6,23,1,1
+67,MIT at Mass Ave / Amherst St,5,71521,7,13,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,71344,3,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,71587,15,19,35,1,1
+107,Ames St at Main St,5,71582,2,16,19,1,1
+178,MIT Pacific St at Purrington St,5,71287,10,5,19,1,1
+179,MIT Vassar St,5,71406,2,23,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,71580,0,21,23,0,1
+318,Ames St at Broadway,5,70746,2,14,19,1,1
+380,Mass Ave at Albany St,5,71228,8,10,18,1,1
+471,MIT Carleton St at Amherst St,5,71583,2,24,27,1,1
+472,MIT Hayward St at Amherst St,5,69127,2,25,27,1,1
+479,Galileo Galilei Way at Main Street,5,70565,8,10,19,1,1
+566,Main Street/Albany Street/Technology Square,5,70569,17,6,23,1,1
+67,MIT at Mass Ave / Amherst St,5,72005,8,12,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,71344,3,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,71587,15,19,35,1,1
+107,Ames St at Main St,5,71942,0,18,19,0,1
+178,MIT Pacific St at Purrington St,5,72124,6,9,19,1,1
+179,MIT Vassar St,5,72181,3,22,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,71580,0,21,23,0,1
+318,Ames St at Broadway,5,71704,1,15,19,1,1
+380,Mass Ave at Albany St,5,72181,11,7,18,1,1
+471,MIT Carleton St at Amherst St,5,71705,3,23,27,1,1
+472,MIT Hayward St at Amherst St,5,72061,1,26,27,1,1
+479,Galileo Galilei Way at Main Street,5,70565,8,10,19,1,1
+566,Main Street/Albany Street/Technology Square,5,72000,18,5,23,1,1
+67,MIT at Mass Ave / Amherst St,5,72785,1,19,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,72302,2,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,72489,15,19,35,1,1
+107,Ames St at Main St,5,71942,0,18,19,0,1
+178,MIT Pacific St at Purrington St,5,72547,5,10,19,1,1
+179,MIT Vassar St,5,72604,2,22,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,71580,0,21,23,0,1
+318,Ames St at Broadway,5,72428,0,16,19,0,1
+380,Mass Ave at Albany St,5,72722,12,6,18,1,1
+471,MIT Carleton St at Amherst St,5,72721,3,23,27,1,1
+472,MIT Hayward St at Amherst St,5,72061,1,26,27,1,1
+479,Galileo Galilei Way at Main Street,5,72664,7,11,19,1,1
+566,Main Street/Albany Street/Technology Square,5,72780,19,4,23,1,1
+67,MIT at Mass Ave / Amherst St,5,73323,0,18,27,0,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,73145,1,22,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,73144,12,22,35,1,1
+107,Ames St at Main St,5,71942,0,18,19,0,1
+178,MIT Pacific St at Purrington St,5,73087,6,9,19,1,1
+179,MIT Vassar St,5,73387,3,22,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,71580,0,21,23,0,1
+318,Ames St at Broadway,5,73080,1,15,19,1,1
+380,Mass Ave at Albany St,5,73202,15,3,18,1,1
+471,MIT Carleton St at Amherst St,5,72969,1,25,27,1,1
+472,MIT Hayward St at Amherst St,5,73323,2,25,27,1,1
+479,Galileo Galilei Way at Main Street,5,73081,6,12,19,1,1
+566,Main Street/Albany Street/Technology Square,5,72905,20,3,23,1,1
+67,MIT at Mass Ave / Amherst St,5,73809,0,19,27,0,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,73683,0,23,23,0,1
+80,MIT Stata Center at Vassar St / Main St,5,73442,11,23,35,1,1
+107,Ames St at Main St,5,73743,1,17,19,1,1
+178,MIT Pacific St at Purrington St,5,73685,6,9,19,1,1
+179,MIT Vassar St,5,73681,1,24,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,71580,0,21,23,0,1
+318,Ames St at Broadway,5,73080,1,15,19,1,1
+380,Mass Ave at Albany St,5,73865,13,5,18,1,1
+471,MIT Carleton St at Amherst St,5,73503,0,26,27,0,1
+472,MIT Hayward St at Amherst St,5,73747,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,73502,5,13,19,1,1
+566,Main Street/Albany Street/Technology Square,5,72905,20,3,2367,1,1
+67,MIT at Mass Ave / Amherst St,5,77228,4,16,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,74581,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,76924,2,32,35,1,1
+107,Ames St at Main St,5,77226,2,16,19,1,1
+178,MIT Pacific St at Purrington St,5,77049,6,9,19,1,1
+179,MIT Vassar St,5,77160,3,22,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,76566,0,21,23,0,1
+318,Ames St at Broadway,5,73080,1,15,19,1,1
+380,Mass Ave at Albany St,5,75841,3,15,18,1,1
+471,MIT Carleton St at Amherst St,5,77041,6,20,27,1,1
+472,MIT Hayward St at Amherst St,5,73747,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,76622,1,17,19,1,1
+566,Main Street/Albany Street/Technology Square,5,77105,16,7,23,1,1
+67,MIT at Mass Ave / Amherst St,5,77886,3,17,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,74581,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,76924,2,32,35,1,1
+107,Ames St at Main St,5,77709,9,9,19,1,1
+178,MIT Pacific St at Purrington St,5,77049,6,9,19,1,1
+179,MIT Vassar St,5,77825,3,22,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,76566,0,21,23,0,1
+318,Ames St at Broadway,5,73080,1,15,19,1,1
+380,Mass Ave at Albany St,5,75841,3,15,18,1,1
+471,MIT Carleton St at Amherst St,5,77580,7,19,27,1,1
+472,MIT Hayward St at Amherst St,5,73747,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,76622,1,17,19,1,1
+566,Main Street/Albany Street/Technology Square,5,77105,16,7,23,1,1
+67,MIT at Mass Ave / Amherst St,5,78421,2,17,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,74581,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,78368,3,31,35,1,1
+107,Ames St at Main St,5,77709,9,9,19,1,1
+178,MIT Pacific St at Purrington St,5,78429,7,8,19,1,1
+179,MIT Vassar St,5,77825,3,22,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,76566,0,21,23,0,1
+318,Ames St at Broadway,5,78003,1,16,19,1,1
+380,Mass Ave at Albany St,5,75841,3,15,18,1,1
+471,MIT Carleton St at Amherst St,5,78426,3,23,27,1,1
+472,MIT Hayward St at Amherst St,5,73747,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,76622,1,17,19,1,1
+566,Main Street/Albany Street/Technology Square,5,77105,16,7,23,1,1
+67,MIT at Mass Ave / Amherst St,5,79024,2,18,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,78368,3,31,35,1,1
+107,Ames St at Main St,5,77709,9,9,19,1,1
+178,MIT Pacific St at Purrington St,5,78968,6,9,19,1,1
+179,MIT Vassar St,5,78965,4,21,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,79089,7,14,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,79088,3,15,18,1,1
+471,MIT Carleton St at Amherst St,5,78969,3,23,27,1,1
+472,MIT Hayward St at Amherst St,5,73747,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,76622,1,17,19,1,1
+566,Main Street/Albany Street/Technology Square,5,77105,16,7,23,1,1
+67,MIT at Mass Ave / Amherst St,5,79681,3,17,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,78368,3,31,35,1,1
+107,Ames St at Main St,5,77709,9,9,19,1,1
+178,MIT Pacific St at Purrington St,5,79506,5,11,19,1,1
+179,MIT Vassar St,5,79625,9,16,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,69783,8,9,19,1,1
+189,Kendall T,5,79089,7,14,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,79328,4,14,18,1,1
+471,MIT Carleton St at Amherst St,5,79680,1,25,27,1,1
+472,MIT Hayward St at Amherst St,5,73747,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,77105,16,7,23,1,1
+67,MIT at Mass Ave / Amherst St,5,80227,0,20,27,0,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,78368,3,31,35,1,1
+107,Ames St at Main St,5,77709,9,9,19,1,1
+178,MIT Pacific St at Purrington St,5,79861,6,10,19,1,1
+179,MIT Vassar St,5,80287,7,18,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,80226,9,8,19,1,1
+189,Kendall T,5,80283,8,13,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,79921,3,15,18,1,1
+471,MIT Carleton St at Amherst St,5,79680,1,25,27,1,1
+472,MIT Hayward St at Amherst St,5,73747,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,77105,16,7,23,1,1
+67,MIT at Mass Ave / Amherst St,5,80762,2,18,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,80585,1,33,35,1,1
+107,Ames St at Main St,5,80586,8,10,19,1,1
+178,MIT Pacific St at Purrington St,5,80824,7,9,19,1,1
+179,MIT Vassar St,5,80882,5,19,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,80526,10,7,19,1,1
+189,Kendall T,5,80888,6,15,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,79921,3,15,18,1,1
+471,MIT Carleton St at Amherst St,5,80465,2,24,27,1,1
+472,MIT Hayward St at Amherst St,5,73747,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,77105,16,7,23,1,1
+67,MIT at Mass Ave / Amherst St,5,82561,3,16,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,5,82561,5,13,19,1,1
+178,MIT Pacific St at Purrington St,5,82081,8,8,19,1,1
+179,MIT Vassar St,5,82688,9,15,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,81960,9,8,19,1,1
+189,Kendall T,5,82621,2,19,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,79921,3,15,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,5,73747,0,27,27,0,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,81062,17,6,23,1,1
+67,MIT at Mass Ave / Amherst St,5,83109,7,13,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,5,82868,2,16,19,1,1
+178,MIT Pacific St at Purrington St,5,83102,9,7,19,1,1
+179,MIT Vassar St,5,83048,6,19,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,82989,10,7,19,1,1
+189,Kendall T,5,83104,0,21,23,0,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,82922,4,14,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,5,83224,6,21,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,82921,18,5,23,1,1
+67,MIT at Mass Ave / Amherst St,5,83640,8,12,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,5,82868,2,16,19,1,1
+178,MIT Pacific St at Purrington St,5,83466,10,6,19,1,1
+179,MIT Vassar St,5,83829,10,14,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,82989,10,7,19,1,1
+189,Kendall T,5,83104,0,21,23,0,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,82922,4,14,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,5,83521,11,16,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,82921,18,5,23,1,1
+67,MIT at Mass Ave / Amherst St,5,84309,7,13,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,5,84307,1,17,19,1,1
+178,MIT Pacific St at Purrington St,5,83466,10,6,19,1,1
+179,MIT Vassar St,5,83949,9,15,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,82989,10,7,19,1,1
+189,Kendall T,5,84121,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,84483,7,11,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,5,83945,14,13,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,82921,18,5,23,1,1
+67,MIT at Mass Ave / Amherst St,5,84961,9,11,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,5,84307,1,17,19,1,1
+178,MIT Pacific St at Purrington St,5,85082,9,7,19,1,1
+179,MIT Vassar St,5,83949,9,15,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,82989,10,7,19,1,1
+189,Kendall T,5,84121,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,84969,8,10,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,5,83945,14,13,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,84909,16,7,23,1,1
+67,MIT at Mass Ave / Amherst St,5,85688,4,16,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,78900,2,20,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,5,84307,1,17,19,1,1
+178,MIT Pacific St at Purrington St,5,85082,9,7,19,1,1
+179,MIT Vassar St,5,85562,7,17,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,82989,10,7,19,1,1
+189,Kendall T,5,84121,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,84969,8,10,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,5,85384,13,14,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,85684,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,5,85929,1,17,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,86169,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,5,84307,1,17,19,1,1
+178,MIT Pacific St at Purrington St,5,86283,11,5,19,1,1
+179,MIT Vassar St,5,85981,8,16,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,82989,10,7,19,1,1
+189,Kendall T,5,84121,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,5,84969,8,10,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,5,86109,12,15,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,85684,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,6,248,2,16,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,86169,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,5,84307,1,17,19,1,1
+178,MIT Pacific St at Purrington St,6,424,13,3,19,1,1
+179,MIT Vassar St,6,184,7,17,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,82989,10,7,19,1,1
+189,Kendall T,5,84121,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,6,124,7,11,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,6,185,10,17,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,85684,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,6,603,1,17,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,86169,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,5,84307,1,17,19,1,1
+178,MIT Pacific St at Purrington St,6,424,13,3,19,1,1
+179,MIT Vassar St,6,787,9,15,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,82989,10,7,19,1,1
+189,Kendall T,5,84121,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,6,124,7,11,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,6,185,10,17,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,5,85684,15,8,23,1,1
+67,MIT at Mass Ave / Amherst St,6,1202,0,19,27,0,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,86169,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,6,1143,0,18,19,0,1
+178,MIT Pacific St at Purrington St,6,1504,11,5,19,1,1
+179,MIT Vassar St,6,1327,8,16,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,5,82989,10,7,19,1,1
+189,Kendall T,5,84121,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,6,1629,6,12,18,1,1
+471,MIT Carleton St at Amherst St,5,81546,0,26,27,0,1
+472,MIT Hayward St at Amherst St,6,1386,9,18,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,6,1681,13,10,23,1,1
+67,MIT at Mass Ave / Amherst St,6,1202,0,19,27,0,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,86169,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,6,2280,0,18,19,0,1
+178,MIT Pacific St at Purrington St,6,1504,11,5,19,1,1
+179,MIT Vassar St,6,2103,8,16,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,6,1987,11,6,19,1,1
+189,Kendall T,5,84121,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,6,1801,7,11,18,1,1
+471,MIT Carleton St at Amherst St,6,1980,2,24,27,1,1
+472,MIT Hayward St at Amherst St,6,1984,8,19,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,6,2105,11,12,23,1,1
+67,MIT at Mass Ave / Amherst St,6,2766,3,17,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,86169,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,6,2280,0,18,19,0,1
+178,MIT Pacific St at Purrington St,6,2649,12,4,19,1,1
+179,MIT Vassar St,6,2103,8,16,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,6,1987,11,6,19,1,1
+189,Kendall T,5,84121,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,6,2640,5,13,18,1,1
+471,MIT Carleton St at Amherst St,6,2703,3,23,27,1,1
+472,MIT Hayward St at Amherst St,6,2642,7,20,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,6,2105,11,12,23,1,1
+67,MIT at Mass Ave / Amherst St,6,3189,4,16,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,86169,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,6,3488,0,18,19,0,1
+178,MIT Pacific St at Purrington St,6,3486,11,4,19,1,1
+179,MIT Vassar St,6,3006,9,15,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,6,1987,11,6,19,1,1
+189,Kendall T,6,3187,2,19,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,6,2640,5,13,18,1,1
+471,MIT Carleton St at Amherst St,6,2703,3,23,27,1,1
+472,MIT Hayward St at Amherst St,6,2642,7,20,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,6,2105,11,12,23,1,1
+67,MIT at Mass Ave / Amherst St,6,3189,4,16,27,1,1
+72,One Broadway / Kendall Sq at Main St / 3rd St,5,86169,1,21,23,1,1
+80,MIT Stata Center at Vassar St / Main St,5,82449,0,34,35,0,1
+107,Ames St at Main St,6,3488,0,18,19,0,1
+178,MIT Pacific St at Purrington St,6,3545,11,5,19,1,1
+179,MIT Vassar St,6,3968,8,16,25,1,1
+184,Sidney Research Campus/Erie Street at Waverly,6,3966,10,7,19,1,1
+189,Kendall T,6,3960,1,20,23,1,1
+318,Ames St at Broadway,5,78781,0,17,19,0,1
+380,Mass Ave at Albany St,6,2640,5,13,18,1,1
+471,MIT Carleton St at Amherst St,6,2703,3,23,27,1,1
+472,MIT Hayward St at Amherst St,6,2642,7,20,27,1,1
+479,Galileo Galilei Way at Main Street,5,79624,0,18,19,0,1
+566,Main Street/Albany Street/Technology Square,6,3846,10,13,23,1,1
