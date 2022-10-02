@@ -6,7 +6,7 @@ BlueBike Plan Helper is an application powered by **InterSystem IRIS Cloud Integ
 * Predict the number of docks at a station in a future time.
 * Predict the probability of getting a bike and stock a bike at a station in a future time.
 
-<img src="/bluebike.png" height="350" width="550">
+<img src="/frontend/bluebike.png" height="350" width="550">
 
 ## Developers
 * [Tom Penanko](https://github.com/tompenanko)
