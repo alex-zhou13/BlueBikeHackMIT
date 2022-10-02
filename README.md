@@ -24,6 +24,9 @@ BlueBike Plan Helper is an application powered by **InterSystem IRIS Cloud Integ
 * [BlueBike Station Information Data](https://gbfs.bluebikes.com/gbfs/en/station_information.json)
 * [BlueBike Station Status & Rides Data](https://gbfs.bluebikes.com/gbfs/es/station_status.json)
 
+# How to run
+* cd frontend/ then npm install then npm run build
+* cd / then flask run
 
 ## Future Features
 * Map to navigate station location

@@ -2,28 +2,22 @@ import './App.css';
 import React, { useState } from 'react';
 import {testModel} from './commands';
 
-const nearby_station_ids = new Array(179,184,178,380,67,80,566,479,107,318,471,472,189,72);
-const nearby_station_names = new Array("MIT Vassar St","Sidney Research Campus/Erie Street at Waverly","MIT Pacific St at Purrington St",
-"Mass Ave at Albany St","MIT at Mass Ave / Amherst St","MIT Stata Center at Vassar St / Main St","Main Street/Albany Street/Technology Square",
-"Galileo Galilei Way at Main Street","Ames St at Main St","Ames St at Broadway","MIT Carleton St at Amherst St","MIT Hayward St at Amherst St",
-"Kendall T","One Broadway / Kendall Sq at Main St / 3rd St");
+const locations = [ { key: 179, value: 'MIT Vassar St', capacity: 25},
+{ key: 184, value: 'Sidney Research Campus/Erie Street at Waverly', capacity: 19},
+{ key: 178, value: 'MIT Pacific St at Purrington St', capacity: 23},
+{ key: 380, value: 'Mass Ave at Albany St', capacity: 18},
+{ key: 67, value: 'MIT at Mass Ave / Amherst St', capacity: 67},
+{ key: 80, value: 'MIT Stata Center at Vassar St / Main St', capacity: 80},
+{ key: 566, value: 'Main Street/Albany Street/Technology Square', capacity: 23},
+{ key: 479, value: 'Galileo Galilei Way at Main Street', capacity: 19},
+{ key: 107, value: 'Ames St at Main St', capacity: 19},
+{ key: 318, value: 'Ames St at Broadway', capacity: 19},
+{ key: 471, value: 'MIT Carleton St at Amherst St', capacity: 27},
+{ key: 472, value: 'MIT Hayward St at Amherst St', capacity: 27},
+{ key: 189, value: 'Kendall T', capacity: 23},
+{ key: 72, value: 'One Broadway / Kendall Sq at Main St / 3rd St', capacity: 23} ];
 
-const nearby_stations = [
-  {id: 179, name: "MIT Vassar St"},
-  {id: 184, name: "Sidney Research Campus/Erie Street at Waverly"},
-  {id: 178, name: "MIT Pacific St at Purrington St"},
-  {id: 380, name: "Mass Ave at Albany St"},
-  {id: 67, name: "MIT at Mass Ave / Amherst St"},
-  {id: 80, name: "MIT Stata Center at Vassar St / Main St"},
-  {id: 566, name: "Main Street/Albany Street/Technology Square"},
-  {id: 479, name: "Galileo Galilei Way at Main Street"},
-  {id: 107, name: "Ames St at Main St"},
-  {id: 318, name: "Ames St at Broadway"},
-  {id: 471, name: "MIT Carleton St at Amherst St"},
-  {id: 472, name: "MIT Hayward St at Amherst St"},
-  {id: 189, name: "Kendall T"},
-  {id: 72, name: "One Broadway / Kendall Sq at Main St / 3rd St"},
-];
+const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 function App() {
   const [location, setLocation] = useState('');
