@@ -1,6 +1,10 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  color: #2CA3E1;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #D9D9D9;
 }
 
 label {
@@ -11,4 +15,16 @@ label {
 input,
 label {
   margin: .4rem 0;
+}
+
+.background {
+  color: #D9D9D9;
+}
+
+img.logo{
+  max-width: 50%;
+}
+
+body {
+  margin: 0;
 }
