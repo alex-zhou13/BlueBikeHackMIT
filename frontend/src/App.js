@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
 import {testModel} from './commands';
+import bikePic from "./Bike-icon.png";
 
 const locations = [ { key: 179, value: 'MIT Vassar St', capacity: 25},
 { key: 184, value: 'Sidney Research Campus/Erie Street at Waverly', capacity: 19},
@@ -43,7 +44,11 @@ function App() {
     const dayOfWeek = days.findIndex(obj => obj === date);
 
     const response = await testModel(stationJson.key, stationJson.value, dayOfWeek, seconds, stationJson.capacity);
-    setResponse(response.data);
+    setResponse(response.data[0]);
+    console.log(response.data);
+    console.log(response.data[0]);
+    console.log(response.data[1]);
+    console.log(response.data[2]);
   }
 
 
@@ -106,10 +111,10 @@ function App() {
           <img class = "bike" src = {bikePic} alt = "Bike!"/>
         </div>
         <div class="grid-item">
-          <h3>Predicted number of bikes: {response.slice(0)}</h3> <br/> 
-          <h3>Probability of finding a bike: {response.slice(1,23)}</h3> <br/> 
-          <h3>Predicted number of spots: {response.slice(-2,-1)}</h3> <br/> 
-          <h3>Probability of finding a spot: {1-parseFloat(response.slice(1,23))}</h3> <br/> 
+          <h3>Predicted number of bikes: {response[0]}</h3> <br/> 
+          <h3>Probability of finding a bike: {response[2]}</h3> <br/> 
+          <h3>Predicted number of spots: {parseInt(response[9]) - parseInt(response[0])}</h3> <br/> 
+          <h3>Probability of finding a spot: {1-parseFloat(response[2])}</h3> <br/> 
         </div>
         <div class="grid-item">
           <img class = "bike" src = {bikePic} alt = "Bike!"/>
