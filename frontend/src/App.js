@@ -8,36 +8,41 @@ function App() {
   const [hour, setHour] = useState();
   const [response, setResponse] = useState("");
 
-  const locations = [ { key: 179, value: 'MIT Vassar St' },
-  { key: 184,
-    value: 'Sidney Research Campus/Erie Street at Waverly' },
-  { key: 178, value: 'MIT Pacific St at Purrington St' },
-  { key: 380, value: 'Mass Ave at Albany St' },
-  { key: 67, value: 'MIT at Mass Ave / Amherst St' },
-  { key: 80, value: 'MIT Stata Center at Vassar St / Main St' },
-  { key: 566,
-    value: 'Main Street/Albany Street/Technology Square' },
-  { key: 479, value: 'Galileo Galilei Way at Main Street' },
-  { key: 107, value: 'Ames St at Main St' },
-  { key: 318, value: 'Ames St at Broadway' },
-  { key: 471, value: 'MIT Carleton St at Amherst St' },
-  { key: 472, value: 'MIT Hayward St at Amherst St' },
-  { key: 189, value: 'Kendall T' },
-  { key: 72,
-    value: 'One Broadway / Kendall Sq at Main St / 3rd St' } ];
+  const locations = [ { key: 179, value: 'MIT Vassar St', capacity: 25},
+  { key: 184, value: 'Sidney Research Campus/Erie Street at Waverly', capacity: 19},
+  { key: 178, value: 'MIT Pacific St at Purrington St', capacity: 23},
+  { key: 380, value: 'Mass Ave at Albany St', capacity: 18},
+  { key: 67, value: 'MIT at Mass Ave / Amherst St', capacity: 67},
+  { key: 80, value: 'MIT Stata Center at Vassar St / Main St', capacity: 80},
+  { key: 566, value: 'Main Street/Albany Street/Technology Square', capacity: 23},
+  { key: 479, value: 'Galileo Galilei Way at Main Street', capacity: 19},
+  { key: 107, value: 'Ames St at Main St', capacity: 19},
+  { key: 318, value: 'Ames St at Broadway', capacity: 19},
+  { key: 471, value: 'MIT Carleton St at Amherst St', capacity: 27},
+  { key: 472, value: 'MIT Hayward St at Amherst St', capacity: 27},
+  { key: 189, value: 'Kendall T', capacity: 23},
+  { key: 72, value: 'One Broadway / Kendall Sq at Main St / 3rd St', capacity: 23} ];
+
+  const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // setResponse("80% Probability of 1 Bike");
-    var locationId = locations.filter(function(item) {
+    // Convert location to station
+    const locationQuery = locations.filter(function(item) {
       return item.value === location;
     })
-    console.log(locationId[0].key)
+    const stationJson = locationQuery[0];
+    
+    // Convert time to sconds
     const [hourString, minute] = hour.split(":");
     var seconds = (parseInt(hourString) * 60) * 60
     seconds += parseInt(minute) * 60;
-    const response = await testModel(locationId[0].key + date + seconds);
+
+    // Convert date to int
+    const dayOfWeek = days.findIndex(obj => obj === date);
+
+    const response = await testModel(stationJson.key, stationJson.value, dayOfWeek, seconds, stationJson.capacity);
     setResponse(response.data);
   }
   
@@ -62,14 +67,6 @@ function App() {
           )}
         </datalist>
 
-        {/* <label for="date">Start date:</label>
-        <input type="date" id="date" name="trip-start"
-          value="2022-10-01"
-          min="2022-10-01" max="2023-12-31"
-          onChange={(e) => { setDate(e.currentTarget.value);  }}
-          required
-        />
-        <br/> */}
         <label for="date">Day:</label>
         <input
           type='text'
@@ -80,7 +77,7 @@ function App() {
           required
         />
         <datalist id="days">
-          {["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].map((item, key) =>
+          {days.map((item, key) =>
             <option key={key} value={item} />
           )}
         </datalist>
