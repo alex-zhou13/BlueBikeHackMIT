@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import bikePic from './Bike-icon.png';
+import {testModel} from './commands';
 
 const nearby_station_ids = new Array(179,184,178,380,67,80,566,479,107,318,471,472,189,72);
 const nearby_station_names = new Array("MIT Vassar St","Sidney Research Campus/Erie Street at Waverly","MIT Pacific St at Purrington St",
@@ -31,11 +31,28 @@ function App() {
   const [hour, setHour] = useState();
   const [response, setResponse] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    setResponse("TBD");
+    // Convert location to station
+    const locationQuery = locations.filter(function(item) {
+      return item.value === location;
+    })
+    const stationJson = locationQuery[0];
+
+    // Convert time to sconds
+    const [hourString, minute] = hour.split(":");
+    var seconds = (parseInt(hourString) * 60) * 60
+    seconds += parseInt(minute) * 60;
+
+    // Convert date to int
+    const dayOfWeek = days.findIndex(obj => obj === date);
+
+    const response = await testModel(stationJson.key, stationJson.value, dayOfWeek, seconds, stationJson.capacity);
+    setResponse(response.data);
   }
+
+
 
   return (
     <div className="App">
@@ -53,19 +70,27 @@ function App() {
           required
         />
         <datalist id="places">
-          {nearby_stations.map((nearby_station) => <option key={nearby_station.id} value={nearby_station.name}>{nearby_station.name}</option>)}
+          {locations.map((item, key) =>
+            <option key={item.key} value={item.value} />
+          )}
         </datalist>
 
         
 
-
-        <label for="date">Enter date:</label>
-        <input type="date" id="date" name="trip-start"
-          value="2022-10-01"
-          min="2022-10-01" max="2023-12-31"
-          onChange={(e) => { setDate(e.currentTarget.value);  }}
+        <label for="date">Day:</label>
+        <input
+          type='text'
+          onChange={(event) => {setDate(event.target.value) }}
+          placeholder='Day of Week'
+          list="days"
+          id="date"
           required
         />
+        <datalist id="days">
+          {days.map((item, key) =>
+            <option key={key} value={item} />
+          )}
+        </datalist>
         <br/>
 
         <label for="hour">Enter time:</label>
@@ -87,10 +112,10 @@ function App() {
           <img class = "bike" src = {bikePic} alt = "Bike!"/>
         </div>
         <div class="grid-item">
-          <h3>Predicted number of bikes: {response}</h3> <br/> 
-          <h3>Probability of finding a bike: {response}</h3> <br/> 
-          <h3>Predicted number of spots: {response}</h3> <br/> 
-          <h3>Probability of finding a spot: {response}</h3> <br/> 
+          <h3>Predicted number of bikes: {response.slice(0)}</h3> <br/> 
+          <h3>Probability of finding a bike: {response.slice(1,23)}</h3> <br/> 
+          <h3>Predicted number of spots: {response.slice(-2,-1)}</h3> <br/> 
+          <h3>Probability of finding a spot: {1-parseFloat(response.slice(1,23))}</h3> <br/> 
         </div>
         <div class="grid-item">
           <img class = "bike" src = {bikePic} alt = "Bike!"/>
