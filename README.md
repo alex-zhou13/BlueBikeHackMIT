@@ -10,7 +10,7 @@ BlueBike Plan Helper is an application powered by **InterSystem IRIS Cloud Integ
 
 ## Awards
 
-This project won HackMIT InterSystems Challenge 1st Place of 200 USD.
+This project won HackMIT InterSystems Challenge 1st Place of 2000 USD.
 
 ## Developers
 * [Tom Penanko](https://github.com/tompenanko)
