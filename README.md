@@ -8,6 +8,10 @@ BlueBike Plan Helper is an application powered by **InterSystem IRIS Cloud Integ
 
 <img src="/frontend/bluebike.png" height="350" width="550">
 
+## Awards
+
+This project won HackMIT InterSystems Challenge 1st Place of 200 USD.
+
 ## Developers
 * [Tom Penanko](https://github.com/tompenanko)
 * [John Chai](https://github.com/ychai23)
@@ -24,7 +28,7 @@ BlueBike Plan Helper is an application powered by **InterSystem IRIS Cloud Integ
 * [BlueBike Station Information Data](https://gbfs.bluebikes.com/gbfs/en/station_information.json)
 * [BlueBike Station Status & Rides Data](https://gbfs.bluebikes.com/gbfs/es/station_status.json)
 
-# How to run
+## How to run
 * cd frontend/ then npm install then npm run build
 * cd / then flask run
 
